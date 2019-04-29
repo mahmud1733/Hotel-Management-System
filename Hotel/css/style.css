@@ -1,0 +1,155 @@
+#container
+{
+	width: 800px;
+	overfloaw: hidden;
+}
+
+#sliderbox
+{
+	position: relative;
+	width: 2400px;
+	animation-name: slideranimation;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+
+#sliderbox img
+{
+	float: left;
+}
+
+@keyframes slideranimation
+{
+	0%
+	{
+		left: 0px;
+	}
+	50%
+	{
+		left: -300px;
+	}
+	100%
+	{
+		left: 0px;
+	}
+}
+
+
+#full{
+	width: 100%;
+	height: auto;
+}
+#header{
+	width: 100%;
+	height:100px;
+	background: PaleVioletRed;
+}
+#logo{
+	width: 50%;
+	height:100px;
+	line-height: 45px;
+	float:left;
+}
+#nav{
+	width: 50%;
+	height:100px;
+	float:left;
+}
+ul li{
+    list-style: none;
+    float: left;
+    width: 16%;
+    height: 50px;
+    line-height: 65px;
+    text-align: center;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+h1{
+	padding: 10px;
+}
+#banner{
+   width: 100%;
+   height:400px;  
+}
+#f1{
+   width: 100%;
+   height:150px;
+  /* background: PaleVioletRed;*/
+}
+#welcome{
+	width: 100%;
+	height: auto;
+    
+}
+#g1{
+	width: 100%;
+    height:500px;   
+}
+#one{
+	width: 33%;
+    height:auto; 
+    float: left;
+  }
+ #two{
+	width: 33%;
+    height:auto; 
+    float: left;
+  }
+ #three{
+	width: 33%;
+    height:auto; 
+    float: left;
+  }
+
+#contct
+{
+ 	width: 100%;
+    height: 375px;
+    background: PaleVioletRed;
+}
+#m1
+{
+	width: 65%;
+	height: 375px;
+	float: left;
+}
+
+#map
+{
+	width: 35%;
+	height: 375px;
+	float: left;
+}
+
+h3
+{
+	padding: 30px;
+}
+
+#copywrt
+{
+	width: 100%;
+	height: 40px;
+	line-height: 45px;
+	background: SaddleBrown;
+}
+#bg{
+ 	background-size:100%;
+ 	background-repeat:no-repeat; 
+   
+ }
+ #form
+ {
+ 	width: 600px;
+ 	padding-top: 150px;
+ 	height: auto;
+ }
+ td
+ {
+ 	width: 300px;
+ 	height: 30px;
+ }
+ 
